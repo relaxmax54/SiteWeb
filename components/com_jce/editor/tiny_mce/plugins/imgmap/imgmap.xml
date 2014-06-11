@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<install version="2.0" type="plugin" plugin="imgmap" editable="1" core="0" row="4">
+	<name>WF_IMAGEMAP_TITLE</name>
+	<version>2.3.0</version>
+	<creationDate>02-08-2013</creationDate>
+	<author>sharky</author>
+	<authorEmail>webmaster at iwannaclick.org</authorEmail>
+	<authorUrl>http://www.iwannaclick.org</authorUrl>
+	<copyright>Adam Maschek</copyright>
+	<license>GPL</license>
+	<description>WF_IMAGEMAP_DESC</description>
+	<icon>imgmap</icon>
+	<layout>imgmap</layout>
+	<elements></elements>
+	<files>
+		<filename>changelog</filename>
+		<filename>editor_plugin.js</filename>
+		<filename>editor_plugin_src.js</filename>
+		<filename>install.txt</filename>
+		<filename>license_GPL.txt</filename>
+		<filename>imgmap.php</filename>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>jscripts</folder>
+		<folder>langs</folder>
+		<folder>licenses</folder>
+    </files>
+	<languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.com_jce_imgmap.ini</language>
+        <language tag="en-GB">en-GB/en-GB.com_jce_imgmap.sys.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.com_jce_imgmap.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.com_jce_imgmap.sys.ini</language>
+    </languages>
+</install>
